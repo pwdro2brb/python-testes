@@ -1,9 +1,13 @@
-input('Digite aqui o país com a maior população: ')
+na = input('digite um número ')
+ba = input('Digite o calculo desejado: ')
+ca = input('Digite uma letra ')
+da = input('digite o resultado ')
 
-n = input('Digite seu cpf: ')
-B = input('Digite seu nome: ')
-c = int(input('Digite sua idade: '))
 
-print('O seu nome é '+ B +' e sua idade é ', c ,'e com o cpf como '+ n)
+ca2 = input('digite aqui o valor da letra na equação (resolva a equação aí) ')
+
+
+
+print(na , ba , ca.replace(ca, ca2) ,' = ',da)
 
 
