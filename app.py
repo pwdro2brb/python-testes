@@ -1,13 +1,14 @@
-na = input('digite um número ')
-ba = input('Digite o calculo desejado: ')
-ca = input('Digite uma letra ')
-da = input('digite o resultado ')
+y = ['1', ' guei', ' alóóóóó', ' Brasil',' CAIXA CAIXA', 'Delta', True, 78]
 
+print(y)
 
-ca2 = input('digite aqui o valor da letra na equação (resolva a equação aí) ')
+print(' ')
+y[2] = input(' digite qualquer coisa aí ')
+print(' ')
 
-
-
-print(na , ba , ca.replace(ca, ca2) ,' = ',da)
-
-
+print(y[0:5])
+print(y[-3])
+print(type(y))
+print(type(y[6]))
+print(type(y[7]))
+print(len(y))
