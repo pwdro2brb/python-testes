@@ -1,29 +1,8 @@
-b = (7,'d', True, "me ajuda aí", 8)
-c = (8,'e', False, "He need some milk", 79)
-d = (9,'f', True, "Brasil \o/", 34)
+def oi_function(nome,idade,pergunta):
+    print('Olá tudo bem ' + nome +'?' )
+    print('Você possui  ' + str(idade) + ' anos de idade .' )
+    print( str(pergunta))
 
-print(' ')
-
-print(b)
-
-print(' ')
-
-print(b[3])
-
-print(' ')
-
-print(len(c))
-
-print(' ')
-
-print(type(d))
-
-print(' ')
-
-print(type(b[4]))
-
-print(' ')
-
-print(d)
+oi_function('Lucas',9,'A reforma protestante foi um erro')
 
 print(' ')
