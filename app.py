@@ -1,36 +1,23 @@
 
-d = int(input(' d = '))
-c = int(input(' c = '))
-b = input(' b = ')
-a = input(' a = ')
+from ast import Return
+
+
+a = int(input('a = '))
+b = int(input('b = '))
+c = int(input('c = '))
+
+
 
 
 print(' ')
 
-if a < b:
-   print(str(a) +' é maior que '+ str(b))
-elif a == b:
-   print(str(a) + ' = '+str(b))
+if b*b-4*c*a > 0 :
+   print('Duas raízes reais')
+elif b*b-4*c*a == 0:
+   print('Uma raiz real')
+elif b*b-4*c*a < 0:
+   print('Nenhuma raiz real')
 else:
-   print('a não é maior que b')
-
-print(' ')
-if a := b:
-   print(' a é igual a b ')
-
-print(' ')
-
-if type(c) == str:
-   print('O valor de c digitado é um string')
-else:
-   print('O valor de c digitado não é um string')
-
-print(' ')
-
-if d%5==0:
-   print('O valor de d é divisivel por 5')
-else:
-   print('O valor de d não é divisivel por 5')
-
+   print('Digite números para mostrar se há raizes reais')
 
 print(' ')
