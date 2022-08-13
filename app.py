@@ -2,22 +2,30 @@
 from ast import Return
 
 
-a = int(input('a = '))
-b = int(input('b = '))
-c = int(input('c = '))
-
-
+Dados = {
+   'nome':'Pedro Henrique',
+   'CPF' : '12345678910',
+   'idade' : '37',
+   'telefone' : 3122857643,
+   'Macho?' : True,
+   'nacionalidade' : ('Brasil','Minas Gerais', 'Belo Horizonte')
+}
 
 
 print(' ')
 
-if b*b-4*c*a > 0 :
-   print('Duas raízes reais')
-elif b*b-4*c*a == 0:
-   print('Uma raiz real')
-elif b*b-4*c*a < 0:
-   print('Nenhuma raiz real')
-else:
-   print('Digite números para mostrar se há raizes reais')
+print(Dados)
+
+print(' ')
+
+print(len(Dados))
+
+print(' ')
+
+print(Dados['nacionalidade'])
+
+print(' ')
+
+print(type(Dados))
 
 print(' ')
