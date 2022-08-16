@@ -1,31 +1,22 @@
+a = 2
 
-from ast import Return
-
-
-Dados = {
-   'nome':'Pedro Henrique',
-   'CPF' : '12345678910',
-   'idade' : '37',
-   'telefone' : 3122857643,
-   'Macho?' : True,
-   'nacionalidade' : ('Brasil','Minas Gerais', 'Belo Horizonte')
-}
-
+i=1
 
 print(' ')
 
-print(Dados)
+while i > 1000:
+   i+=250
+   print(i)
 
 print(' ')
 
-print(len(Dados))
+num1 = int(input('digite um número para se ver seus divisores '))
 
-print(' ')
-
-print(Dados['nacionalidade'])
-
-print(' ')
-
-print(type(Dados))
-
+print('Os números divísiveis são: ')
+while i <= num1:
+ if num1%i == 0:
+   print(i)
+ i+=1
+   
+   
 print(' ')
