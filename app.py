@@ -1,25 +1,34 @@
-a = ['345','8','43','7','era','que','ui','True','False']
-
-i=1
+a = [
+   [345,'8',43],
+   [7,'era','que','ui'],
+   [True, False,369],
+   [
+      [1,'True', 'ovomataojhoson',693],
+      [1,'-', 'False',963]
+   ]
+]
 
 print(' ')
 
-while i < 1000:
-   i+=250
-   print(i)
+print(a)
 
 print(' ')
 
-for values in a:
-   if values == 'que':
-      break
-   print(a)
-   
+print(type(a[2][1]))
+
 print(' ')
 
-for c in range(5, 56):
-   print(c)
-else:
-   print('Acabou')
+print(a[3][1][3])
+
+print(' ')
+for lists in a:
+   for row in lists:
+      print(row)
+print(' ')
+print(' ')
+print(' ')
+for lists in a[3]:
+   for row in lists:
+      print(row)
 
 print(' ')
