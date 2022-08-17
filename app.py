@@ -17,7 +17,7 @@ for values in a:
    
 print(' ')
 
-for c in range(10):
+for c in range(5, 56):
    print(c)
 else:
    print('Acabou')
