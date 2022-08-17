@@ -1,35 +1,34 @@
-a = [
-   [345,'8',43],
-   [7,'era','que','ui'],
-   [True, False,369],
-   [
-      [1,'True', 'ovomataojhoson',693],
-      [1,'-', 'False',963]
-   ]
-]
+import math
 
 print(' ')
 
-print(a)
+a = int(input('Digite um número: '))
+calculo = input('Digite o calculo desejado, ou sinal: ')
+b = int(input('Digite o segundo número: '))
 
 print(' ')
 
-print(type(a[2][1]))
 
-print(' ')
 
-#print(a[3][1][3])
+if calculo == '+':
+  print('O resutado da soma será de ',a+b)
 
-print(' ')
-'''
-for lists in a:
-   for row in lists:
-      print(row)
-print(' ')
-print(' ')
-print(' ')
-for lists in a[3]:
-   for row in lists:
-      print(row)
-'''
+elif calculo == '-':
+   print('O resultado da subtração será de ',a-b)    
+
+elif calculo == '/' and b !=0 :
+   print('O resultado da divisão será de ',a/b)
+
+elif calculo == '*':
+   print('O resultado da multiplicação será de ',a*b)
+
+elif calculo == 'potencia' or calculo == 'Potência' or calculo == 'potência' or calculo == 'POTENCIA'or calculo == 'POTÊNCIA'or calculo == ' Potência'or calculo == ' potencia'or calculo == ' potência'or calculo == '^'or calculo == 'elevado por'or calculo == 'Elevado por':
+   print('O primeiro número elevado pelo segundo terá o resultado de: ',math.pow(a, b))
+
+elif calculo == 'raiz' or calculo == 'Raiz' or calculo == 'RAIZ' or calculo == 'raiz quadrada'or calculo == 'Raiz quadrada'or calculo == 'raiz Quadrada'or calculo == 'Raiz Quadrada'or calculo == 'RAIZ quadrada'or calculo == 'raiz QUADRADA'or calculo == 'RAIZ QUADRADA'or calculo == 'Raiz QUADRADA':
+   print('A raiz quadrada do primeiro número é = ',math.sqrt(a),'. e a do segundo número será = ', math.sqrt(b) )
+
+else:
+   print('Não possuirá valor numerico')
+
 print(' ')
