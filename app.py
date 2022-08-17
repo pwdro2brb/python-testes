@@ -18,9 +18,10 @@ print(type(a[2][1]))
 
 print(' ')
 
-print(a[3][1][3])
+#print(a[3][1][3])
 
 print(' ')
+'''
 for lists in a:
    for row in lists:
       print(row)
@@ -30,5 +31,5 @@ print(' ')
 for lists in a[3]:
    for row in lists:
       print(row)
-
+'''
 print(' ')
