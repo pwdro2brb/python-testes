@@ -1,22 +1,25 @@
-a = 2
+a = ['345','8','43','7','era','que','ui','True','False']
 
 i=1
 
 print(' ')
 
-while i > 1000:
+while i < 1000:
    i+=250
    print(i)
 
 print(' ')
 
-num1 = int(input('digite um número para se ver seus divisores '))
+for values in a:
+   if values == 'que':
+      break
+   print(a)
+   
+print(' ')
 
-print('Os números divísiveis são: ')
-while i <= num1:
- if num1%i == 0:
-   print(i)
- i+=1
-   
-   
+for c in range(10):
+   print(c)
+else:
+   print('Acabou')
+
 print(' ')
