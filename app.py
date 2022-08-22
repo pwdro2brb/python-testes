@@ -1,16 +1,18 @@
 print(' ')
 
-class Person:
-  def __init__(si, nome, idade,tele):
-    si.nome = nome
-    si.idade = idade
-    si.tele = tele
+from testo import dados
 
-p = Person("John", 36, 14975432462)
+class p(dados):
+  pass
 
-print(p.nome)
-print(p.idade)
-print(p.tele)
+p1=p()
+
+
+print(p1.nome)
+print(p1.idade)
+print(p.genero)
+print(type(p.Dmaior))
+print(len(p.nascimento))
 
 
 print(' ')
