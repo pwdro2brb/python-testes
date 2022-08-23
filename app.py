@@ -1,26 +1,33 @@
 print(' ')
 
-from testo import dados
+print('Exercicio 1')
+print('\n Tabuada \n')
 
-class p(dados):
-  pass
-
-p1=p()
-
-
-print(p1.nome)
-print(p1.idade)
-print(p.genero)
-print(type(p.Dmaior))
-print(len(p.nascimento))
-
+x = int(input('Digite o valor do número para ver sua tabuada: '))
+i = 0
+y = int(input('Digite o valor de onde irá para a tabuada: ' ))
 
 print(' ')
 
-class a:
-   x = 2/67
+print(x,' * ',i,' = ',x*i)
+while i<=y:
+  i += 1
+  print(x,' * ',i,' = ',x*i)
 
-b=a()
-print('Outra classe ',b.x)
+print(' ')
+
+print('\nexércicio 2')
+print('\n Série fibonacci \n')
+
+
+ii = 0
+xx = 1
+
+while xx <= 1000:
+  print(ii,xx)
+  ii += xx
+  xx += ii
+
+
 
 print(' ')
