@@ -1,33 +1,27 @@
 print(' ')
 
-print('Exercicio 1')
-print('\n Tabuada \n')
+print('Exercicio 3')
+print('\n login e cadastro \n')
 
-x = int(input('Digite o valor do número para ver sua tabuada: '))
-i = 0
-y = int(input('Digite o valor de onde irá para a tabuada: ' ))
-
-print(' ')
-
-print(x,' * ',i,' = ',x*i)
-while i<=y:
-  i += 1
-  print(x,' * ',i,' = ',x*i)
-
-print(' ')
-
-print('\nexércicio 2')
-print('\n Série fibonacci \n')
+x = input('Digite aqui o seu nome: ')
+y = input('Digite aqui a sua senha: ')
 
 
-ii = 0
-xx = 1
+print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
 
-while xx <= 1000:
-  print(ii,xx)
-  ii += xx
-  xx += ii
+print('Cadastro feito com sucesso!!!!!')
+print('Agora o login.\n\n')
 
+log = input('Digite o nome usado no seu cadastro: ')
+sen = input('Digite o nome usado no sua senha: ')
 
+if log == x and sen == y:
+  print('Login feito com sucesso. ') 
+elif log != x:
+  print('Nome do usuário incorrreto. ')
+elif sen != y:
+  print('Senha do usuário incorreto. ')  
+else: 
+  print('Usuário e senha incorreto. ')
 
 print(' ')
