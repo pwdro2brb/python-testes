@@ -1,22 +1,22 @@
 print(' ')
 
-print('Exercicio 4')
-print('\n MDC, minimo e máximo divisor comun\n')
+print('Exercicio 5')
+print('\n Boletim escolar\n')
 
-x = int(input('Digite um valor de um número: '))
-y = int(input('Digite um valor de outro número: '))
-i = 1
+n = input('Digite o nome do aluno: ')
 
-if x == 0 or y == 0:
-  print('O menor divisor comun entre ambos é: 0')
-elif x==y:
-  print('o maior divisor comun entre ambos é: ',x)
-elif y > x:
-  i = y % x
-  print('O maior divisor comun entre ambos é: ',i)
-elif x > y:
-  i = x % y
-  print('O maior divisor comun entre ambos é: ',i)
+not1 = int(input('Digite o valor da nota do 1º bimestre: '))
+not2 = int(input('Digite o valor da nota do 2º bimestre: '))
+not3 = int(input('Digite o valor da nota do 3º bimestre: '))
+not4 = int(input('Digite o valor da nota do 4º bimestre: '))
 
+med =  not1+not2+not3+not4
+
+if med >= 60 and med < 100:
+  print('O aluno ',n,' está aprovado! Com uma nota final de ',med)
+elif med < 60 and med >=0:
+  print('O aluno ',n,' está reprovado! Com uma nota final de ',med)
+else:
+  print('Valor fora da curva --> ', med)
 
 print(' ')
