@@ -1,27 +1,22 @@
 print(' ')
 
-print('Exercicio 3')
-print('\n login e cadastro \n')
+print('Exercicio 4')
+print('\n MDC, minimo e máximo divisor comun\n')
 
-x = input('Digite aqui o seu nome: ')
-y = input('Digite aqui a sua senha: ')
+x = int(input('Digite um valor de um número: '))
+y = int(input('Digite um valor de outro número: '))
+i = 1
 
+if x == 0 or y == 0:
+  print('O menor divisor comun entre ambos é: 0')
+elif x==y:
+  print('o maior divisor comun entre ambos é: ',x)
+elif y > x:
+  i = y % x
+  print('O maior divisor comun entre ambos é: ',i)
+elif x > y:
+  i = x % y
+  print('O maior divisor comun entre ambos é: ',i)
 
-print('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
-
-print('Cadastro feito com sucesso!!!!!')
-print('Agora o login.\n\n')
-
-log = input('Digite o nome usado no seu cadastro: ')
-sen = input('Digite o nome usado no sua senha: ')
-
-if log == x and sen == y:
-  print('Login feito com sucesso. ') 
-elif log != x:
-  print('Nome do usuário incorrreto. ')
-elif sen != y:
-  print('Senha do usuário incorreto. ')  
-else: 
-  print('Usuário e senha incorreto. ')
 
 print(' ')
