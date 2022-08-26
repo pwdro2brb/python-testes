@@ -1,22 +1,41 @@
 print(' ')
 
-print('Exercicio 5')
-print('\n Boletim escolar\n')
+print('Exercicio 6')
+print('\n Acerte os números \n')
 
-n = input('Digite o nome do aluno: ')
+print('Adivinhe o valor de 3 números. \nDica, esses números estão entre 50 a 2100, boa sorte')
 
-not1 = int(input('Digite o valor da nota do 1º bimestre: '))
-not2 = int(input('Digite o valor da nota do 2º bimestre: '))
-not3 = int(input('Digite o valor da nota do 3º bimestre: '))
-not4 = int(input('Digite o valor da nota do 4º bimestre: '))
 
-med =  not1+not2+not3+not4
 
-if med >= 60 and med < 100:
-  print('O aluno ',n,' está aprovado! Com uma nota final de ',med)
-elif med < 60 and med >=0:
-  print('O aluno ',n,' está reprovado! Com uma nota final de ',med)
+
+num1 = int(input('Digite o valor de um número: '))
+
+if num1 == 487:
+  print('Parabens você acertou o 1º valor, ',num1)
 else:
-  print('Valor fora da curva --> ', med)
+  print('Vocé errou 1º valor, tente novamente!!')
+
+
+
+num2 = int(input('Digite o valor de um número: '))
+
+if num2 == 60:
+  print('Parabens você acertou o 2º valor, ',num2)
+else:
+  print('Vocé errou o 2º valor, tente novamente!!')
+
+
+
+num3 = int(input('Digite o valor de um número: '))
+
+if num3 == 2022:
+  print('Parabens você acertou o 3º valor ',num3)
+else:
+  print('Vocé errou 3º valor, tente novamente!!')
+
+
+
+
+
 
 print(' ')
