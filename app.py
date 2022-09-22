@@ -1,40 +1,44 @@
+from tokenize import ContStr
+from traceback import print_list
+
+
 print(' ')
 
-print('Exercicio 6')
-print('\n Acerte os números \n')
+print('Exercicio 7')
+print('\n Progressão aritmética \n')
 
-print('Adivinhe o valor de 3 números. \nDica, esses números estão entre 50 a 2100, boa sorte')
+a1 = int(input(' Digite o valor do primeiro termo '))
+n =  int(input(' Digite o número de termos '))
+r =  int(input(' Digite a razão, ou seja, a quantidade que aumenta no intervalo em cada número '))
 
-
-
-
-num1 = int(input('Digite o valor de um número: '))
-
-if num1 == 487:
-  print('Parabens você acertou o 1º valor, ',num1)
-else:
-  print('Vocé errou 1º valor, tente novamente!!')
+i=0
 
 
+while i < n:
+  print(a1)
+  a1+=r
+  i+=1
 
-num2 = int(input('Digite o valor de um número: '))
+print(' ')
 
-if num2 == 60:
-  print('Parabens você acertou o 2º valor, ',num2)
-else:
-  print('Vocé errou o 2º valor, tente novamente!!')
+print(' ')
 
+print('Exercicio 8')
+print('\n Progressão geométrica \n')
 
+aa1 = int(input('Digite o valor do primeiro termo '))
+q = int(input('Digite o valor da razão, ou seja a quantidade de aumento no intervalo '))
+n2 = int(input('Digite a quantidade de termos '))
 
-num3 = int(input('Digite o valor de um número: '))
+ii=0
+ann=0
+print(aa1)
 
-if num3 == 2022:
-  print('Parabens você acertou o 3º valor ',num3)
-else:
-  print('Vocé errou 3º valor, tente novamente!!')
-
-
-
+while ii < n2:
+ ii+=1
+ ann = aa1*q**ii
+ print(ann)
+ 
 
 
 
